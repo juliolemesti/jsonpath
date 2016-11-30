@@ -1,5 +1,5 @@
 {
-  "name": "jsonpath",
+  "name": "@ramonornela/jsonpath",
   "description": "Query JavaScript objects with JSONPath expressions. Robust / safe JSONPath engine for Node.js.",
   "version": "0.2.9",
   "author": "david@fmail.co.uk",
@@ -9,6 +9,7 @@
     "generate": "node bin/generate_parser.js > generated/parser.js"
   },
   "main": "jsonpath.js",
+  "typings": "jsonpath.d.ts",
   "dependencies": {
     "esprima": "1.2.2",
     "jison": "0.4.13",
